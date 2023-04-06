@@ -1,0 +1,63 @@
+body {
+  background: url("../img/background\ image.jpg"), rgba(255, 255, 255, 0.9);
+  background-blend-mode: color;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header div {
+  content: url(../img/logo.jpg);
+  display: block;
+  margin-left: 10px;
+  margin-right: auto;
+  height: 70px;
+}
+header {
+  background-color: blueviolet;
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+.content {
+  text-align: center;
+  position: relative;
+  margin-top: 30px;
+}
+
+.contact {
+  text-align: center;
+  position: relative;
+  margin-top: 350px;
+}
+.block {
+  display: inline-block;
+}
+.footer {
+  border-top: 3px solid black;
+  margin-top: auto;
+  text-align: center;
+}
+.card {
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  margin-bottom: 60px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  color: chocolate;
+  text-shadow: 1px 1px 1px #000;
+}
